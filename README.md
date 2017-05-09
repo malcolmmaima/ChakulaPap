@@ -4,7 +4,7 @@ ChakulaPap is an Uber for food. Order food the same way you would order an Uber 
 
 #Cheers
 
-<h2>Login Sceen</h2>
+<h2>Login Screen</h2>
 <p>
     <a href="#">
     <img class=" wp-image-2403 alignleft" width="480" height="854" alt="Capture" src="https://raw.githubusercontent.com/malcolmmaima/ChakulaPap/master/Screenshots/Screenshot_2017-04-24-19-02-18.png"></img>
@@ -34,21 +34,21 @@ We use fragments in this app, thus the three tabs with different views. On press
 
 </a>
 <br />
-Confirm order and a server request is sent to an orders table that will be fetched by provider accounts, they can either accept or decline the order.
+Confirm order and a server request is sent to the server which updates an orders table that will be fetched by provider accounts, they can either accept or decline the order.
 </p>
 
 <h2>Simple php Dashboard</h2>
 <p>
 Oh, and did I mention that I also made a simple php backend.(Still working on it but so far this is what I have...)
     <a href="#">
-    <img class=" wp-image-2403 alignleft" width="480" height="854" alt="Capture" src="https://raw.githubusercontent.com/malcolmmaima/ChakulaPap/master/Screenshots/Capture.JPG"></img>
+    <img class=" wp-image-2403 alignleft" width="1366" height="693" alt="Capture" src="https://raw.githubusercontent.com/malcolmmaima/ChakulaPap/master/Screenshots/Capture.JPG"></img>
 
 </a>
 ..............................
 <a href="#">
-    <img class=" wp-image-2403 alignleft" width="480" height="854" alt="Capture" src="https://raw.githubusercontent.com/malcolmmaima/ChakulaPap/master/Screenshots/Capture2.JPG"></img>
+    <img class=" wp-image-2403 alignleft" width="1348" height="697" alt="Capture" src="https://raw.githubusercontent.com/malcolmmaima/ChakulaPap/master/Screenshots/Capture2.JPG"></img>
 
 </a>
-<br />
+<br /> 
 We can edit the current menu items being displayed in the app from the backend. Hopefully add some more cool stuff to our backend.
 </p>
