@@ -1,0 +1,75 @@
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/view_background">
+
+    <ImageView
+        android:layout_width="222dp"
+        android:layout_height="222dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"/>
+
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"/>
+
+
+        <Button
+            android:id="@+id/bLogin"
+            android:background="@color/colorAccent"
+            android:shadowColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/etRegisterLink"
+            android:background="@color/colorPrimaryDark"
+            android:shadowColor="@color/colorAccent"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:text="SignUp" />
+
+    <TextView
+        android:id="@+id/etResetLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Forgot password? Click here"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</ScrollView>

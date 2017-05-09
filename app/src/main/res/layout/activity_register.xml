@@ -1,0 +1,135 @@
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <TextView
+        android:text="Phone Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <TextView
+        android:text="Re-enter Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rentPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <TextView
+        android:text="Account type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Radio buttons under RelativeLayout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/accType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <RadioButton
+                android:text="customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/customerRd"
+                android:checked="false"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/colorAccent"/>
+
+            <RadioButton
+                android:text="provider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FoodRd"
+                android:checked="false"
+                android:backgroundTint="@color/colorAccent"
+                />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+
+    <!-- Checkbox -->
+    <CheckBox
+        android:text="I Agree to the terms and conditions."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/agreeTerms"
+        />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+</LinearLayout>
+</ScrollView>

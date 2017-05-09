@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_calls"
+        android:title="@string/action_calls"
+        android:icon="@drawable/ic_call"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_clear_log"
+        android:title="@string/action_refresh_list"
+        app:showAsAction="never"/>
+    <item android:id="@+id/special_order"
+        android:title="@string/special_order_req"
+        app:showAsAction="never"/>
+    <item android:id="@+id/search_nearby"
+        android:title="@string/search_nearby_food"
+        app:showAsAction="never"/>
+</menu>

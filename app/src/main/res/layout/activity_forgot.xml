@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/ForgotTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ooh man! you forgot your password!? We got you covered. Enter your email and get reset link in your inbox"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:text="Enter Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/resetEmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/bReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"/>
+
+
+</LinearLayout>
