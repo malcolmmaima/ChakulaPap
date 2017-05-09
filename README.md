@@ -10,7 +10,7 @@ ChakulaPap is an Uber for food. Order food the same way you would order an Uber 
     <img class=" wp-image-2403 alignleft" width="480" height="854" alt="Capture" src="https://raw.githubusercontent.com/malcolmmaima/ChakulaPap/master/Screenshots/Screenshot_2017-04-24-19-02-18.png"></img>
 
 </a>
-
+Sorry about the login credentials confusion, you'll notice after login the Activity title is Malcolm Maima(thats because I later logged in with a different account - mine and took the screenshots for testing purposes. Build the app and have a go at it *wink wink* )
 </p>
     
 Once you login to the App, you will see a List of food items uploaded by food providers near you. On Sign up there are two account types you can choose from. Based on that, after login you will be redirected to the proper Activity depending on account type. (Will upload Provider Account View screenshots soon)
@@ -23,6 +23,7 @@ Once you login to the App, you will see a List of food items uploaded by food pr
 
 </a>
 <br />
+
 We use fragments in this app, thus the three tabs with different views. On pressing order, an alert box pops asking for confirmation of that particular order, after which a server request is sent and relevant database fields are updated with the order details. For the Database I use MySql. If interested in being part of the project or improving on, do let me know so I can wire those php scripts to you real quick (^_^)
 </p>
 
