@@ -36,3 +36,19 @@ We use fragments in this app, thus the three tabs with different views. On press
 <br />
 Confirm order and a server request is sent to an orders table that will be fetched by provider accounts, they can either accept or decline the order.
 </p>
+
+<h2>Simple php Dashboard</h2>
+<p>
+Oh, and did I mention that I also made a simple php backend.(Still working on it but so far this is what I have...)
+    <a href="#">
+    <img class=" wp-image-2403 alignleft" width="480" height="854" alt="Capture" src="https://raw.githubusercontent.com/malcolmmaima/ChakulaPap/master/Screenshots/Capture.JPG"></img>
+
+</a>
+..............................
+<a href="#">
+    <img class=" wp-image-2403 alignleft" width="480" height="854" alt="Capture" src="https://raw.githubusercontent.com/malcolmmaima/ChakulaPap/master/Screenshots/Capture2.JPG"></img>
+
+</a>
+<br />
+We can edit the current menu items being displayed in the app from the backend. Hopefully add some more cool stuff to our backend.
+</p>
